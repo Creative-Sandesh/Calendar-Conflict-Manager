@@ -1,0 +1,6 @@
+Calendar Conflict Report
+========================================
+
+- Conflict between Team Sync and Client Call
+  Type: overlap, Severity: high
+  Suggestion Action: Require human decision

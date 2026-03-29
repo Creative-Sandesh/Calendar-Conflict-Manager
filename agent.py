@@ -27,7 +27,7 @@ def read_calendar(path = "calendar.csv") -> List[Event]:
         for row in reader:
             events.append(Event(
                 title=row["title"],
-                start= parse_datetime(row["Start_time"]),
+                start= parse_datetime(row["start_time"]),
                 end=parse_datetime(row["end_time"]),
                 priority=PRIORITY_MAP[row["priority"].lower()],
                 event_type=row["type"],
@@ -58,7 +58,7 @@ def detect_conflicts(events: List[Event]):
                 "severity": severity,
                 "suggestion": suggestion
             })
-        return conflicts
+    return conflicts
             
 
 def suggest_resolution(a:Event, b: Event) -> str:
@@ -88,5 +88,5 @@ def main():
     print(f"Detected {len(conflicts)} conflicts.")
     
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     main()
