@@ -26,12 +26,12 @@ def read_calendar(path = "calendar.csv") -> List[Event]:
         reader = csv.DictReader(f)
         for row in reader:
             events.append(Event(
-                title=row["title"],
-                start= parse_datetime(row["start_time"]),
-                end=parse_datetime(row["end_time"]),
-                priority=PRIORITY_MAP[row["priority"].lower()],
-                event_type=row["type"],
-                flexible=row["flexible"].lower() == "yes"
+                title=row['title'],
+                start= parse_datetime(row['start_time']),
+                end=parse_datetime(row['end_time']),
+                priority=PRIORITY_MAP[row['priority'].lower()],
+                event_type=row['type'],
+                flexible=row['flexible'].lower() == 'yes'
             ))
     return sorted(events,key=lambda e: e.start)
 
@@ -81,9 +81,9 @@ def main():
         f.write("Calendar Conflict Report\n")
         f.write("="*40+ "\n\n")
         for c in conflicts:
-            f.write(f"- Conflict between {c["event_a"]} and {c["event_b"]}\n")
-            f.write(f"  Type: {c["type"]}, Severity: {c["severity"]}\n")
-            f.write(f"  Suggestion Action: {c["suggestion"]}\n")
+            f.write(f"- Conflict between {c['event_a']} and {c['event_b']}\n")
+            f.write(f"  Type: {c['type']}, Severity: {c['severity']}\n")
+            f.write(f"  Suggestion Action: {c['suggestion']}\n")
     print("Conflict analysis complete")
     print(f"Detected {len(conflicts)} conflicts.")
     
