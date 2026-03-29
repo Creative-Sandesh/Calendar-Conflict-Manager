@@ -1,6 +1,249 @@
 Calendar Conflict Report
 ========================================
 
-- Conflict between Team Sync and Client Call
+- Conflict between Daily Sync and Marketing Review
   Type: overlap, Severity: high
   Suggestion Action: Require human decision
+- Conflict between Marketing Review and Focus Time
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Focus Time'
+- Conflict between Focus Time and Quick Check-in
+  Type: overlap, Severity: medium
+  Suggestion Action: Reschedule 'Quick Check-in'
+- Conflict between Quick Check-in and Lunch
+  Type: overlap, Severity: medium
+  Suggestion Action: Shorten or reschedule one event
+- Conflict between Lunch and Sprint Planning
+  Type: no_buffer, Severity: high
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Sprint Planning and Client A Sync
+  Type: overlap, Severity: high
+  Suggestion Action: Require human decision
+- Conflict between Client A Sync and Code Review
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Code Review'
+- Conflict between 1:1 Sarah and Dentist
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule '1:1 Sarah'
+- Conflict between Daily Sync and Deep Work Block
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Deep Work Block'
+- Conflict between Deep Work Block and Design Sync
+  Type: overlap, Severity: medium
+  Suggestion Action: Require human decision
+- Conflict between Lunch and Team Social
+  Type: overlap, Severity: medium
+  Suggestion Action: Shorten or reschedule one event
+- Conflict between Team Social and Quarterly Review
+  Type: no_buffer, Severity: high
+  Suggestion Action: Reschedule 'Team Social'
+- Conflict between Quarterly Review and Vendor Demo
+  Type: overlap, Severity: high
+  Suggestion Action: Require human decision
+- Conflict between Ad-hoc Sync and Inbox Zero
+  Type: overlap, Severity: medium
+  Suggestion Action: Reschedule 'Ad-hoc Sync'
+- Conflict between Daily Sync and Client B Kickoff
+  Type: no_buffer, Severity: high
+  Suggestion Action: Require human decision
+- Conflict between Client B Kickoff and Code Review
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Code Review'
+- Conflict between Code Review and Focus Time
+  Type: overlap, Severity: medium
+  Suggestion Action: Shorten or reschedule one event
+- Conflict between Focus Time and Lunch
+  Type: overlap, Severity: medium
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Lunch and Engineering All-Hands
+  Type: no_buffer, Severity: high
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Engineering All-Hands and Bug Triage
+  Type: overlap, Severity: high
+  Suggestion Action: Require human decision
+- Conflict between Bug Triage and 1:1 David
+  Type: no_buffer, Severity: high
+  Suggestion Action: Reschedule '1:1 David'
+- Conflict between 1:1 David and Brainstorming
+  Type: no_buffer, Severity: medium
+  Suggestion Action: Shorten or reschedule one event
+- Conflict between Brainstorming and Walk Dog
+  Type: overlap, Severity: medium
+  Suggestion Action: Reschedule 'Walk Dog'
+- Conflict between Daily Sync and Interviews
+  Type: overlap, Severity: high
+  Suggestion Action: Require human decision
+- Conflict between Interviews and Deep Work Block
+  Type: no_buffer, Severity: high
+  Suggestion Action: Reschedule 'Deep Work Block'
+- Conflict between Deep Work Block and Lunch
+  Type: overlap, Severity: medium
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Lunch and Product Roadmap
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Product Roadmap and 1:1 Emily
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule '1:1 Emily'
+- Conflict between 1:1 Emily and Client C Catchup
+  Type: no_buffer, Severity: high
+  Suggestion Action: Reschedule '1:1 Emily'
+- Conflict between Client C Catchup and Code Review
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Code Review'
+- Conflict between Code Review and Documentation
+  Type: overlap, Severity: medium
+  Suggestion Action: Shorten or reschedule one event
+- Conflict between Documentation and Kids Pickup
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Documentation'
+- Conflict between Daily Sync and Retrospective
+  Type: no_buffer, Severity: high
+  Suggestion Action: Require human decision
+- Conflict between Retrospective and Focus Time
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Focus Time'
+- Conflict between Focus Time and Lunch
+  Type: no_buffer, Severity: medium
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Lunch and Town Hall
+  Type: no_buffer, Severity: medium
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Town Hall and Team Building
+  Type: overlap, Severity: medium
+  Suggestion Action: Reschedule 'Team Building'
+- Conflict between Team Building and Project X Sync
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Team Building'
+- Conflict between Project X Sync and Code Review
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Code Review'
+- Conflict between Code Review and Weekly Review
+  Type: no_buffer, Severity: medium
+  Suggestion Action: Shorten or reschedule one event
+- Conflict between Weekly Review and Grocery Run
+  Type: overlap, Severity: medium
+  Suggestion Action: Reschedule 'Grocery Run'
+- Conflict between Daily Sync and Onboarding New Hire
+  Type: no_buffer, Severity: high
+  Suggestion Action: Require human decision
+- Conflict between Onboarding New Hire and Deep Work Block
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Deep Work Block'
+- Conflict between Deep Work Block and Lunch
+  Type: overlap, Severity: medium
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Lunch and Cross-functional Sync
+  Type: no_buffer, Severity: high
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Cross-functional Sync and Security Training
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Security Training'
+- Conflict between Security Training and 1:1 John
+  Type: no_buffer, Severity: medium
+  Suggestion Action: Shorten or reschedule one event
+- Conflict between 1:1 John and Code Review
+  Type: no_buffer, Severity: medium
+  Suggestion Action: Shorten or reschedule one event
+- Conflict between Code Review and Performance Review Prep
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Code Review'
+- Conflict between Performance Review Prep and Gym
+  Type: no_buffer, Severity: high
+  Suggestion Action: Reschedule 'Gym'
+- Conflict between Daily Sync and Client A Presentation
+  Type: overlap, Severity: high
+  Suggestion Action: Require human decision
+- Conflict between Client A Presentation and Focus Time
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Focus Time'
+- Conflict between Focus Time and Lunch
+  Type: no_buffer, Severity: medium
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Lunch and Database Migration
+  Type: no_buffer, Severity: high
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Database Migration and Status Update
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Status Update'
+- Conflict between 1:1 Manager and Code Review
+  Type: no_buffer, Severity: high
+  Suggestion Action: Reschedule 'Code Review'
+- Conflict between Code Review and Bug Triage
+  Type: overlap, Severity: medium
+  Suggestion Action: Shorten or reschedule one event
+- Conflict between Daily Sync and Deep Work Block
+  Type: no_buffer, Severity: high
+  Suggestion Action: Reschedule 'Deep Work Block'
+- Conflict between Deep Work Block and Design Handoff
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Deep Work Block'
+- Conflict between Design Handoff and Lunch
+  Type: no_buffer, Severity: high
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Lunch and Team Sync
+  Type: overlap, Severity: medium
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Team Sync and Architecture Sync
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Team Sync'
+- Conflict between Architecture Sync and Vendor Support Call
+  Type: no_buffer, Severity: high
+  Suggestion Action: Require human decision
+- Conflict between Vendor Support Call and Code Review
+  Type: overlap, Severity: medium
+  Suggestion Action: Require human decision
+- Conflict between Code Review and Analytics Review
+  Type: overlap, Severity: medium
+  Suggestion Action: Reschedule 'Analytics Review'
+- Conflict between Analytics Review and Doctor Appointment
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Analytics Review'
+- Conflict between Daily Sync and Q4 Planning
+  Type: overlap, Severity: high
+  Suggestion Action: Require human decision
+- Conflict between Q4 Planning and Focus Time
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Focus Time'
+- Conflict between Focus Time and Lunch
+  Type: no_buffer, Severity: medium
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Lunch and Client Feedback
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Client Feedback and Mentoring Session
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Mentoring Session'
+- Conflict between Mentoring Session and Release Prep
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Mentoring Session'
+- Conflict between Release Prep and Code Review
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Code Review'
+- Conflict between Code Review and 1:1 Mark
+  Type: no_buffer, Severity: medium
+  Suggestion Action: Shorten or reschedule one event
+- Conflict between Daily Sync and Deep Work Block
+  Type: no_buffer, Severity: high
+  Suggestion Action: Reschedule 'Deep Work Block'
+- Conflict between Deep Work Block and Legal Review
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Deep Work Block'
+- Conflict between Legal Review and Lunch
+  Type: no_buffer, Severity: high
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between Lunch and All Hands
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Lunch'
+- Conflict between All Hands and Sprint Demo
+  Type: overlap, Severity: high
+  Suggestion Action: Require human decision
+- Conflict between Sprint Demo and Team Celebration
+  Type: overlap, Severity: high
+  Suggestion Action: Reschedule 'Team Celebration'
+- Conflict between Team Celebration and Code Review
+  Type: overlap, Severity: medium
+  Suggestion Action: Reschedule 'Team Celebration'
+- Conflict between Code Review and Weekly Wrap-up
+  Type: overlap, Severity: medium
+  Suggestion Action: Shorten or reschedule one event

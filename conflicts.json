@@ -1,9 +1,576 @@
 [
   {
-    "event_a": "Team Sync",
-    "event_b": "Client Call",
+    "event_a": "Daily Sync",
+    "event_b": "Marketing Review",
     "type": "overlap",
     "severity": "high",
     "suggestion": "Require human decision"
+  },
+  {
+    "event_a": "Marketing Review",
+    "event_b": "Focus Time",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Focus Time'"
+  },
+  {
+    "event_a": "Focus Time",
+    "event_b": "Quick Check-in",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Quick Check-in'"
+  },
+  {
+    "event_a": "Quick Check-in",
+    "event_b": "Lunch",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Shorten or reschedule one event"
+  },
+  {
+    "event_a": "Lunch",
+    "event_b": "Sprint Planning",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Sprint Planning",
+    "event_b": "Client A Sync",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Require human decision"
+  },
+  {
+    "event_a": "Client A Sync",
+    "event_b": "Code Review",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Code Review'"
+  },
+  {
+    "event_a": "1:1 Sarah",
+    "event_b": "Dentist",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule '1:1 Sarah'"
+  },
+  {
+    "event_a": "Daily Sync",
+    "event_b": "Deep Work Block",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Deep Work Block'"
+  },
+  {
+    "event_a": "Deep Work Block",
+    "event_b": "Design Sync",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Require human decision"
+  },
+  {
+    "event_a": "Lunch",
+    "event_b": "Team Social",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Shorten or reschedule one event"
+  },
+  {
+    "event_a": "Team Social",
+    "event_b": "Quarterly Review",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Reschedule 'Team Social'"
+  },
+  {
+    "event_a": "Quarterly Review",
+    "event_b": "Vendor Demo",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Require human decision"
+  },
+  {
+    "event_a": "Ad-hoc Sync",
+    "event_b": "Inbox Zero",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Ad-hoc Sync'"
+  },
+  {
+    "event_a": "Daily Sync",
+    "event_b": "Client B Kickoff",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Require human decision"
+  },
+  {
+    "event_a": "Client B Kickoff",
+    "event_b": "Code Review",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Code Review'"
+  },
+  {
+    "event_a": "Code Review",
+    "event_b": "Focus Time",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Shorten or reschedule one event"
+  },
+  {
+    "event_a": "Focus Time",
+    "event_b": "Lunch",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Lunch",
+    "event_b": "Engineering All-Hands",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Engineering All-Hands",
+    "event_b": "Bug Triage",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Require human decision"
+  },
+  {
+    "event_a": "Bug Triage",
+    "event_b": "1:1 David",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Reschedule '1:1 David'"
+  },
+  {
+    "event_a": "1:1 David",
+    "event_b": "Brainstorming",
+    "type": "no_buffer",
+    "severity": "medium",
+    "suggestion": "Shorten or reschedule one event"
+  },
+  {
+    "event_a": "Brainstorming",
+    "event_b": "Walk Dog",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Walk Dog'"
+  },
+  {
+    "event_a": "Daily Sync",
+    "event_b": "Interviews",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Require human decision"
+  },
+  {
+    "event_a": "Interviews",
+    "event_b": "Deep Work Block",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Reschedule 'Deep Work Block'"
+  },
+  {
+    "event_a": "Deep Work Block",
+    "event_b": "Lunch",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Lunch",
+    "event_b": "Product Roadmap",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Product Roadmap",
+    "event_b": "1:1 Emily",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule '1:1 Emily'"
+  },
+  {
+    "event_a": "1:1 Emily",
+    "event_b": "Client C Catchup",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Reschedule '1:1 Emily'"
+  },
+  {
+    "event_a": "Client C Catchup",
+    "event_b": "Code Review",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Code Review'"
+  },
+  {
+    "event_a": "Code Review",
+    "event_b": "Documentation",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Shorten or reschedule one event"
+  },
+  {
+    "event_a": "Documentation",
+    "event_b": "Kids Pickup",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Documentation'"
+  },
+  {
+    "event_a": "Daily Sync",
+    "event_b": "Retrospective",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Require human decision"
+  },
+  {
+    "event_a": "Retrospective",
+    "event_b": "Focus Time",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Focus Time'"
+  },
+  {
+    "event_a": "Focus Time",
+    "event_b": "Lunch",
+    "type": "no_buffer",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Lunch",
+    "event_b": "Town Hall",
+    "type": "no_buffer",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Town Hall",
+    "event_b": "Team Building",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Team Building'"
+  },
+  {
+    "event_a": "Team Building",
+    "event_b": "Project X Sync",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Team Building'"
+  },
+  {
+    "event_a": "Project X Sync",
+    "event_b": "Code Review",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Code Review'"
+  },
+  {
+    "event_a": "Code Review",
+    "event_b": "Weekly Review",
+    "type": "no_buffer",
+    "severity": "medium",
+    "suggestion": "Shorten or reschedule one event"
+  },
+  {
+    "event_a": "Weekly Review",
+    "event_b": "Grocery Run",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Grocery Run'"
+  },
+  {
+    "event_a": "Daily Sync",
+    "event_b": "Onboarding New Hire",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Require human decision"
+  },
+  {
+    "event_a": "Onboarding New Hire",
+    "event_b": "Deep Work Block",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Deep Work Block'"
+  },
+  {
+    "event_a": "Deep Work Block",
+    "event_b": "Lunch",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Lunch",
+    "event_b": "Cross-functional Sync",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Cross-functional Sync",
+    "event_b": "Security Training",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Security Training'"
+  },
+  {
+    "event_a": "Security Training",
+    "event_b": "1:1 John",
+    "type": "no_buffer",
+    "severity": "medium",
+    "suggestion": "Shorten or reschedule one event"
+  },
+  {
+    "event_a": "1:1 John",
+    "event_b": "Code Review",
+    "type": "no_buffer",
+    "severity": "medium",
+    "suggestion": "Shorten or reschedule one event"
+  },
+  {
+    "event_a": "Code Review",
+    "event_b": "Performance Review Prep",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Code Review'"
+  },
+  {
+    "event_a": "Performance Review Prep",
+    "event_b": "Gym",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Reschedule 'Gym'"
+  },
+  {
+    "event_a": "Daily Sync",
+    "event_b": "Client A Presentation",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Require human decision"
+  },
+  {
+    "event_a": "Client A Presentation",
+    "event_b": "Focus Time",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Focus Time'"
+  },
+  {
+    "event_a": "Focus Time",
+    "event_b": "Lunch",
+    "type": "no_buffer",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Lunch",
+    "event_b": "Database Migration",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Database Migration",
+    "event_b": "Status Update",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Status Update'"
+  },
+  {
+    "event_a": "1:1 Manager",
+    "event_b": "Code Review",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Reschedule 'Code Review'"
+  },
+  {
+    "event_a": "Code Review",
+    "event_b": "Bug Triage",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Shorten or reschedule one event"
+  },
+  {
+    "event_a": "Daily Sync",
+    "event_b": "Deep Work Block",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Reschedule 'Deep Work Block'"
+  },
+  {
+    "event_a": "Deep Work Block",
+    "event_b": "Design Handoff",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Deep Work Block'"
+  },
+  {
+    "event_a": "Design Handoff",
+    "event_b": "Lunch",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Lunch",
+    "event_b": "Team Sync",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Team Sync",
+    "event_b": "Architecture Sync",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Team Sync'"
+  },
+  {
+    "event_a": "Architecture Sync",
+    "event_b": "Vendor Support Call",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Require human decision"
+  },
+  {
+    "event_a": "Vendor Support Call",
+    "event_b": "Code Review",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Require human decision"
+  },
+  {
+    "event_a": "Code Review",
+    "event_b": "Analytics Review",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Analytics Review'"
+  },
+  {
+    "event_a": "Analytics Review",
+    "event_b": "Doctor Appointment",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Analytics Review'"
+  },
+  {
+    "event_a": "Daily Sync",
+    "event_b": "Q4 Planning",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Require human decision"
+  },
+  {
+    "event_a": "Q4 Planning",
+    "event_b": "Focus Time",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Focus Time'"
+  },
+  {
+    "event_a": "Focus Time",
+    "event_b": "Lunch",
+    "type": "no_buffer",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Lunch",
+    "event_b": "Client Feedback",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Client Feedback",
+    "event_b": "Mentoring Session",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Mentoring Session'"
+  },
+  {
+    "event_a": "Mentoring Session",
+    "event_b": "Release Prep",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Mentoring Session'"
+  },
+  {
+    "event_a": "Release Prep",
+    "event_b": "Code Review",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Code Review'"
+  },
+  {
+    "event_a": "Code Review",
+    "event_b": "1:1 Mark",
+    "type": "no_buffer",
+    "severity": "medium",
+    "suggestion": "Shorten or reschedule one event"
+  },
+  {
+    "event_a": "Daily Sync",
+    "event_b": "Deep Work Block",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Reschedule 'Deep Work Block'"
+  },
+  {
+    "event_a": "Deep Work Block",
+    "event_b": "Legal Review",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Deep Work Block'"
+  },
+  {
+    "event_a": "Legal Review",
+    "event_b": "Lunch",
+    "type": "no_buffer",
+    "severity": "high",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "Lunch",
+    "event_b": "All Hands",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Lunch'"
+  },
+  {
+    "event_a": "All Hands",
+    "event_b": "Sprint Demo",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Require human decision"
+  },
+  {
+    "event_a": "Sprint Demo",
+    "event_b": "Team Celebration",
+    "type": "overlap",
+    "severity": "high",
+    "suggestion": "Reschedule 'Team Celebration'"
+  },
+  {
+    "event_a": "Team Celebration",
+    "event_b": "Code Review",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Reschedule 'Team Celebration'"
+  },
+  {
+    "event_a": "Code Review",
+    "event_b": "Weekly Wrap-up",
+    "type": "overlap",
+    "severity": "medium",
+    "suggestion": "Shorten or reschedule one event"
   }
 ]

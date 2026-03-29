@@ -1,7 +1,101 @@
 title,start_time,end_time,priority,type,flexible
-Team Sync,2025-12-23 09:00,2025-12-23 10:00,high,meeting,no
-Client Call,2025-12-23 09:30,2025-12-23 10:30,high,meeting,no
-Code Review,2025-12-23 10:30,2025-12-23 11:00,medium,meeting,yes
-Deep Work Block,2025-12-23 11:00,2025-12-23 13:00,high,focus,no
-Lunch,2025-12-23 12:30,2025-12-23 13:00,low,personal,yes
-Weekly Planning,2025-12-23 13:00,2025-12-23 14:00,medium,meeting,yes
+Daily Sync,2025-12-01 09:00,2025-12-01 09:30,high,meeting,no
+Marketing Review,2025-12-01 09:15,2025-12-01 10:15,high,meeting,no
+Focus Time,2025-12-01 10:00,2025-12-01 12:00,medium,focus,yes
+Quick Check-in,2025-12-01 11:45,2025-12-01 12:15,low,meeting,yes
+Lunch,2025-12-01 12:00,2025-12-01 13:00,low,personal,yes
+Sprint Planning,2025-12-01 13:00,2025-12-01 14:00,high,meeting,no
+Client A Sync,2025-12-01 13:30,2025-12-01 14:30,high,meeting,no
+Code Review,2025-12-01 14:00,2025-12-01 15:00,medium,task,yes
+1:1 Sarah,2025-12-01 15:30,2025-12-01 16:00,medium,meeting,yes
+Dentist,2025-12-01 15:45,2025-12-01 16:45,high,personal,no
+Daily Sync,2025-12-02 09:00,2025-12-02 09:30,high,meeting,no
+Deep Work Block,2025-12-02 09:00,2025-12-02 11:00,medium,focus,yes
+Design Sync,2025-12-02 10:30,2025-12-02 11:30,medium,meeting,no
+Lunch,2025-12-02 12:30,2025-12-02 13:30,low,personal,yes
+Team Social,2025-12-02 13:00,2025-12-02 14:00,low,meeting,yes
+Quarterly Review,2025-12-02 14:00,2025-12-02 16:00,high,meeting,no
+Vendor Demo,2025-12-02 14:30,2025-12-02 15:30,medium,meeting,no
+Ad-hoc Sync,2025-12-02 15:45,2025-12-02 16:15,low,meeting,yes
+Inbox Zero,2025-12-02 16:00,2025-12-02 17:00,medium,task,yes
+Gym,2025-12-02 17:30,2025-12-02 18:30,low,personal,yes
+Daily Sync,2025-12-03 09:00,2025-12-03 09:30,high,meeting,no
+Client B Kickoff,2025-12-03 09:30,2025-12-03 10:30,high,meeting,no
+Code Review,2025-12-03 10:00,2025-12-03 11:00,medium,task,yes
+Focus Time,2025-12-03 10:30,2025-12-03 12:30,medium,focus,yes
+Lunch,2025-12-03 12:00,2025-12-03 13:00,low,personal,yes
+Engineering All-Hands,2025-12-03 13:00,2025-12-03 14:00,high,meeting,no
+Bug Triage,2025-12-03 13:30,2025-12-03 14:30,high,meeting,yes
+1:1 David,2025-12-03 14:30,2025-12-03 15:00,medium,meeting,yes
+Brainstorming,2025-12-03 15:00,2025-12-03 16:30,medium,meeting,yes
+Walk Dog,2025-12-03 16:00,2025-12-03 16:30,low,personal,yes
+Daily Sync,2025-12-04 09:00,2025-12-04 09:30,high,meeting,no
+Interviews,2025-12-04 09:00,2025-12-04 11:00,high,meeting,no
+Deep Work Block,2025-12-04 11:00,2025-12-04 13:00,medium,focus,yes
+Lunch,2025-12-04 12:30,2025-12-04 13:30,low,personal,yes
+Product Roadmap,2025-12-04 13:00,2025-12-04 14:30,high,meeting,no
+1:1 Emily,2025-12-04 14:00,2025-12-04 14:30,medium,meeting,yes
+Client C Catchup,2025-12-04 14:30,2025-12-04 15:30,high,meeting,no
+Code Review,2025-12-04 15:00,2025-12-04 16:00,medium,task,yes
+Documentation,2025-12-04 15:30,2025-12-04 17:00,medium,task,yes
+Kids Pickup,2025-12-04 16:30,2025-12-04 17:30,high,personal,no
+Daily Sync,2025-12-05 09:00,2025-12-05 09:30,high,meeting,no
+Retrospective,2025-12-05 09:30,2025-12-05 10:30,high,meeting,no
+Focus Time,2025-12-05 10:00,2025-12-05 12:00,medium,focus,yes
+Lunch,2025-12-05 12:00,2025-12-05 13:00,low,personal,yes
+Town Hall,2025-12-05 13:00,2025-12-05 14:00,medium,meeting,no
+Team Building,2025-12-05 13:30,2025-12-05 15:00,low,meeting,yes
+Project X Sync,2025-12-05 14:30,2025-12-05 15:30,high,meeting,no
+Code Review,2025-12-05 15:00,2025-12-05 16:00,medium,task,yes
+Weekly Review,2025-12-05 16:00,2025-12-05 17:00,medium,focus,yes
+Grocery Run,2025-12-05 16:30,2025-12-05 17:30,low,personal,yes
+Daily Sync,2025-12-08 09:00,2025-12-08 09:30,high,meeting,no
+Onboarding New Hire,2025-12-08 09:30,2025-12-08 11:00,high,meeting,no
+Deep Work Block,2025-12-08 10:30,2025-12-08 12:30,medium,focus,yes
+Lunch,2025-12-08 12:00,2025-12-08 13:00,low,personal,yes
+Cross-functional Sync,2025-12-08 13:00,2025-12-08 14:00,high,meeting,no
+Security Training,2025-12-08 13:30,2025-12-08 14:30,medium,task,yes
+1:1 John,2025-12-08 14:30,2025-12-08 15:00,medium,meeting,yes
+Code Review,2025-12-08 15:00,2025-12-08 16:00,medium,task,yes
+Performance Review Prep,2025-12-08 15:30,2025-12-08 17:00,high,focus,yes
+Gym,2025-12-08 17:00,2025-12-08 18:00,low,personal,yes
+Daily Sync,2025-12-09 09:00,2025-12-09 09:30,high,meeting,no
+Client A Presentation,2025-12-09 09:00,2025-12-09 10:30,high,meeting,no
+Focus Time,2025-12-09 10:00,2025-12-09 12:00,medium,focus,yes
+Lunch,2025-12-09 12:00,2025-12-09 13:00,low,personal,yes
+Database Migration,2025-12-09 13:00,2025-12-09 15:00,high,task,no
+Status Update,2025-12-09 13:30,2025-12-09 14:00,medium,meeting,yes
+1:1 Manager,2025-12-09 14:30,2025-12-09 15:00,high,meeting,no
+Code Review,2025-12-09 15:00,2025-12-09 16:00,medium,task,yes
+Bug Triage,2025-12-09 15:30,2025-12-09 16:30,medium,meeting,yes
+Evening Run,2025-12-09 17:00,2025-12-09 18:00,low,personal,yes
+Daily Sync,2025-12-10 09:00,2025-12-10 09:30,high,meeting,no
+Deep Work Block,2025-12-10 09:30,2025-12-10 11:30,medium,focus,yes
+Design Handoff,2025-12-10 11:00,2025-12-10 12:00,high,meeting,no
+Lunch,2025-12-10 12:00,2025-12-10 13:00,low,personal,yes
+Team Sync,2025-12-10 12:30,2025-12-10 13:30,medium,meeting,yes
+Architecture Sync,2025-12-10 13:00,2025-12-10 14:00,high,meeting,no
+Vendor Support Call,2025-12-10 14:00,2025-12-10 15:00,medium,meeting,no
+Code Review,2025-12-10 14:30,2025-12-10 15:30,medium,task,yes
+Analytics Review,2025-12-10 15:00,2025-12-10 16:00,low,meeting,yes
+Doctor Appointment,2025-12-10 15:30,2025-12-10 16:30,high,personal,no
+Daily Sync,2025-12-11 09:00,2025-12-11 09:30,high,meeting,no
+Q4 Planning,2025-12-11 09:00,2025-12-11 11:00,high,meeting,no
+Focus Time,2025-12-11 10:30,2025-12-11 12:30,medium,focus,yes
+Lunch,2025-12-11 12:30,2025-12-11 13:30,low,personal,yes
+Client Feedback,2025-12-11 13:00,2025-12-11 14:00,high,meeting,no
+Mentoring Session,2025-12-11 13:30,2025-12-11 14:30,medium,meeting,yes
+Release Prep,2025-12-11 14:00,2025-12-11 16:00,high,task,no
+Code Review,2025-12-11 15:00,2025-12-11 16:00,medium,task,yes
+1:1 Mark,2025-12-11 16:00,2025-12-11 16:30,medium,meeting,yes
+Commute,2025-12-11 17:00,2025-12-11 18:00,low,personal,no
+Daily Sync,2025-12-12 09:00,2025-12-12 09:30,high,meeting,no
+Deep Work Block,2025-12-12 09:30,2025-12-12 11:30,medium,focus,yes
+Legal Review,2025-12-12 11:00,2025-12-12 12:00,high,meeting,no
+Lunch,2025-12-12 12:00,2025-12-12 13:00,low,personal,yes
+All Hands,2025-12-12 12:30,2025-12-12 13:30,high,meeting,no
+Sprint Demo,2025-12-12 13:00,2025-12-12 14:30,high,meeting,no
+Team Celebration,2025-12-12 14:00,2025-12-12 15:00,low,meeting,yes
+Code Review,2025-12-12 14:30,2025-12-12 15:30,medium,task,yes
+Weekly Wrap-up,2025-12-12 15:00,2025-12-12 16:00,medium,focus,yes
+Happy Hour,2025-12-12 16:30,2025-12-12 18:00,low,personal,yes
