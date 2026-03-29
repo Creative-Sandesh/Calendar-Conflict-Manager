@@ -77,6 +77,16 @@ def main():
     with open("conflicts.json", "w", encoding="utf-8") as f:
         json.dump(conflicts,f ,indent=2)
     
+    with open("conflicts.txt", "w", encoding="utf-8") as f:
+        f.write("Calendar Conflict Report\n")
+        f.write("="*40+ "\n\n")
+        for c in conflicts:
+            f.write(f"- Conflict between {c["event_a"]} and {c["event_b"]}\n")
+            f.write(f"  Type: {c["type"]}, Severity: {c["severity"]}\n")
+            f.write(f"  Suggestion Action: {c["suggestion"]}\n")
+    print("Conflict analysis complete")
+    print(f"Detected {len(conflicts)} conflicts.")
+    
 
 if __name__ = "__main__":
     main()
