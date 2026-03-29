@@ -17,20 +17,58 @@ class Event:
     event_type: str
     flexible: bool
     
+def parse_datetime(s:str)-> datetime:
+    return datetime.strptime(s, "%Y-%m-%d %H:%M")    
+
 def read_calendar(path = "calendar.csv") -> List[Event]:
     events =[]
     with open(path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
             events.append(Event(
-                
+                title=row["title"],
+                start= parse_datetime(row["Start_time"]),
+                end=parse_datetime(row["end_time"]),
+                priority=PRIORITY_MAP[row["priority"].lower()],
+                event_type=row["type"],
+                flexible=row["flexible"].lower() == "yes"
             ))
-    
-    
-    return sorted
+    return sorted(events,key=lambda e: e.start)
+
 
 def detect_conflicts(events: List[Event]):
     conflicts =[]
+    for i in range(len(events)-1):
+        a = events[i]
+        b = events[i+1]
+        
+        overlap = a.end > b.start
+        no_buffer = (b.start - a.end) < timedelta(minutes=BUFFER_MINUTES)
+
+        if overlap or no_buffer:
+            conflict_type = "overlap" if overlap else "no_buffer"
+            severity = "high" if a.priority == 3 or b.priority == 3 else "medium"
+            
+            suggestion = suggest_resolution(a,b)
+            
+            conflicts.append({
+                "event_a":a.title,
+                "event_b":b.title,
+                "type": conflict_type,
+                "severity": severity,
+                "suggestion": suggestion
+            })
+        return conflicts
+            
+
+def suggest_resolution(a:Event, b: Event) -> str:
+    if a.priority > b.priority and b.flexible:
+        return f"Reschedule '{b.title}'"
+    if b.priority > a.priority and a.flexible:
+        return f"Reschedule '{a.title}'"
+    if a.flexible and b.flexible:
+        return f"Shorten or reschedule one event"
+    return "Require human decision"
     
 def main():
     events = read_calendar()
